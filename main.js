@@ -1,9 +1,9 @@
 let validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 let imputForm = document.getElementById('input');
-let myInput = document.getElementById('input').value;
 let form = document.getElementById("form");
 
 function myFunction() {
+    let myInput = document.getElementById('input').value;
     console.log(myInput);
     if (myInput.match(validRegex)) {
         form.innerHTML = 'Thank you!';
