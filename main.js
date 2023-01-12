@@ -1,6 +1,7 @@
 let validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-let imputForm = document.getElementById('input');
+let inputForm = document.getElementById('input');
 let form = document.getElementById("form");
+let button = document.getElementById("button");
 
 function myFunction() {
     let myInput = document.getElementById('input').value;
@@ -12,9 +13,9 @@ function myFunction() {
             let newDiv = document.createElement("div");
         newDiv.id = 'newDiv';
         newDiv.innerHTML = "Please provide a valid email address";
-        form.appendChild(newDiv);
+        form.append(newDiv);
         newDiv.classList.add('new');
-        imputForm.classList.add('newInput');
+        inputForm.classList.add('newInput');
         } else {
 
         }
