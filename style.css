@@ -144,15 +144,19 @@ input {
     input {
         width: 266px;
         margin-right: 0;
-        padding: 6px;
+        padding: 8px;
         height: 19px;
     }
 
     .subscribe-btn {
-        width: 280px;
-        padding: 6px;
-        height: 33px;
+        width: 284px;
+        padding: 8px;
+        height: 37px;
         margin: 0;
+    }
+
+    .subscribe-btn span {
+        font-size: 12px;
     }
 
     #copyright {
@@ -162,6 +166,23 @@ input {
 
     .form-input {
         margin-bottom: 45px;
+    }
+
+    .new {
+        margin-right: 10px;
+        font-size: 11px;
+        font-weight: 300;
+        margin-top: -40px;
+    }
+
+    .newButton {
+        position: relative;
+        top: 20px;
+    }
+
+    .newButtonText {
+        position: relative; 
+        top: 20px;
     }
 
 }
