@@ -99,6 +99,7 @@ input {
     border-color: hsl(354, 100%, 66%);
 }
 
+
 @media only screen and (max-device-width: 375px) {
     body {
         width: 375px;
@@ -156,7 +157,8 @@ input {
     }
 
     .subscribe-btn span {
-        font-size: 12px;
+        font-size: 11px;
+        font-weight: 300;
     }
 
     #copyright {
@@ -172,17 +174,17 @@ input {
         margin-right: 10px;
         font-size: 11px;
         font-weight: 300;
-        margin-top: -40px;
+        margin-top: -88px;
     }
 
     .newButton {
         position: relative;
         top: 20px;
+        margin-bottom: 50px;
     }
 
-    .newButtonText {
-        position: relative; 
-        top: 20px;
-    }
+    .newIllustration {
+        margin-top: 30px;
+    } 
 
 }

@@ -3,6 +3,7 @@ let inputForm = document.getElementById('input');
 let form = document.getElementById("form");
 let button = document.getElementById("button");
 let buttonText = document.getElementById('buttonText')
+let illustration = document.getElementById('illustration');
 
 function myFunction() {
     let myInput = document.getElementById('input').value;
@@ -14,11 +15,12 @@ function myFunction() {
             let newDiv = document.createElement("div");
         newDiv.id = 'newDiv';
         newDiv.innerHTML = "Please provide a valid email address";
-        button.prepend(newDiv);
+        form.append(newDiv);
         newDiv.classList.add('new');
         button.classList.add('newButton');
         buttonText.classList.add('newButtonText');
         inputForm.classList.add('newInput');
+        illustration.classList.add('newIllustration');
         } else {
 
         }
