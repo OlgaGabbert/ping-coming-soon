@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: (https://olgagabbert.github.io/ping-coming-soon/)
 
 ## My process
 
